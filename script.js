@@ -18,34 +18,34 @@ const transparentPixel =
 
 const raceData = {
   team: {
-    kicker: "Team Trail",
-    title: "半马组越野赛",
+    kicker: "Mountain Trail",
+    title: "山地越野24公里组",
     description:
       "以团队协作为核心的山地越野组别，适合具备耐力基础、能在复杂地形中稳定推进的跑者。",
-    distance: "22 km",
-    ascent: "1500 m+",
+    distance: "24 km",
+    ascent: "以正式轨迹为准",
     format: "3 人团队",
     bars: ["88%", "76%", "92%"],
-    note: "团队须共同完成路线，成绩以最后一名队员到达终点的时间为准。",
+    note: "3人一组，至少包含1名女生；团队须共同完成路线，成绩以最后一名队员到达终点的时间为准。",
   },
   mini: {
     kicker: "Mini Trail",
-    title: "Mini 越野赛",
+    title: "山地越野10公里组",
     description:
       "保留爬升、下降、林道与草甸体验的入门组别，适合希望完整感受山地越野节奏的个人跑者。",
     distance: "10 km",
-    ascent: "600 m+",
+    ascent: "以正式轨迹为准",
     format: "个人赛",
     bars: ["58%", "48%", "62%"],
     note: "建议具备连续徒步或跑步基础，并提前熟悉补水、下坡和天气应对。",
   },
   family: {
     kicker: "Family Trail",
-    title: "亲子体验赛",
+    title: "亲子越野10公里组",
     description:
       "以陪伴和体验为主的家庭路线，让更多参与者在安全节奏下走进崇礼山野。",
     distance: "10 km",
-    ascent: "600 m+",
+    ascent: "以正式轨迹为准",
     format: "家庭同行",
     bars: ["52%", "38%", "48%"],
     note: "不以竞速为核心，建议根据同行成员体能控制节奏，优先保障安全与体验。",
