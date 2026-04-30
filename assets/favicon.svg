@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="北京大学山地越野赛">
+  <rect width="64" height="64" rx="12" fill="#8f1216"/>
+  <path d="M9 45 25 20l9 14 6-9 15 20H9Z" fill="#fffaf0"/>
+  <path d="M18 45c9-10 18-12 29-12" fill="none" stroke="#e7b958" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="46" cy="20" r="4" fill="#e7b958"/>
+</svg>
