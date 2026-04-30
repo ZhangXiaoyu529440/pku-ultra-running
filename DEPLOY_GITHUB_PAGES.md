@@ -50,19 +50,17 @@ https://<你的GitHub用户名>.github.io/pku-ultra-running/
 
 等这个地址能打开后，再继续绑定自定义域名。
 
-## 3. 绑定自定义域名
+## 3. 先验证 GitHub Pages 临时地址
 
-本项目根目录已经包含：
-
-```text
-CNAME
-```
-
-内容是：
+先不要急着绑定自定义域名。启用 Pages 后，先确认这个地址能打开：
 
 ```text
-pku-ultra-running.com
+https://ZhangXiaoyu529440.github.io/pku-ultra-running/
 ```
+
+如果临时地址能打开，再继续绑定自定义域名。这样可以把“网站部署问题”和“域名 DNS 问题”分开排查。
+
+## 4. 绑定自定义域名
 
 在 GitHub Pages 的 `Custom domain` 中填写：
 
@@ -70,9 +68,9 @@ pku-ultra-running.com
 pku-ultra-running.com
 ```
 
-保存。
+保存后，GitHub 会自动在仓库中创建或更新 `CNAME` 文件。
 
-## 4. 配置 DNS
+## 5. 配置 DNS
 
 到你购买 `pku-ultra-running.com` 的域名服务商后台，进入 DNS 解析，添加以下记录。
 
@@ -103,7 +101,7 @@ AAAA    @           2606:50c0:8003::153
 CNAME   www         <你的GitHub用户名>.github.io
 ```
 
-## 5. 等待生效并开启 HTTPS
+## 6. 等待生效并开启 HTTPS
 
 DNS 通常几分钟到数小时生效，少数情况下可能需要 24 小时。
 
@@ -125,7 +123,7 @@ Enforce HTTPS
 https://pku-ultra-running.com/
 ```
 
-## 6. 验证命令
+## 7. 验证命令
 
 DNS 生效后可执行：
 
